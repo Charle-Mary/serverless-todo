@@ -5,7 +5,8 @@ export default {
             type: "object",
             properties: {
                 S: {
-                    type: "string"
+                    type: "string",
+                    minLength: 3
                 }
             },
             additionalProperties: false,
